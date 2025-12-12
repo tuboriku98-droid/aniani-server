@@ -5,9 +5,9 @@ https://tuboriku98-droid.github.io/aniani-server/
 
 
 
-使用技術
+## 使用技術
 
-フロント側
+### フロントエンド
 -HTML
 -CSS
 
