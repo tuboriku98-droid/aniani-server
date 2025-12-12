@@ -69,4 +69,7 @@ https://tuboriku98-droid.github.io/aniani-server/
 
 　　-不要な情報を公開しないことで攻撃リスク低下を意識
 
+  webサイトに不要なhttpメソッドを制限し想定外の操作を防止しています。
+  　-許可 GET,POST, 拒否 PUT,DELETE,OPTIONS
+
 
