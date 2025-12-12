@@ -7,18 +7,18 @@ https://tuboriku98-droid.github.io/aniani-server/
 
 ## 使用技術
 
-### フロントエンド
+###  フロントエンド
 -HTML
 -CSS
 
-サーバ側
+###  サーバ/インフラ
 -Docker
 -Ubuntu
 -apache2
 -chmod/chown
 -ログ分析
 
-サーバ構築手順
+### サーバ構築手順
 
 1,DockerでLinux環境を作成
 
