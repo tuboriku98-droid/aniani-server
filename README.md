@@ -1,5 +1,8 @@
 アニメ紹介サイト『アニアニ！』を題材にLinuxでサーバを構築したポートフォリオになります。
 
+アニアニリンク
+https://tuboriku98-droid.github.io/aniani-server/
+
 使用技術
 
 フロント側
