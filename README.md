@@ -5,13 +5,13 @@ https://tuboriku98-droid.github.io/aniani-server/
 
 
 
-#### 使用技術
+＃ 使用技術
 
-##### フロントエンド
+＃＃＃ フロントエンド
 -HTML
 -CSS
 
-#####  サーバ/インフラ
+＃＃＃  サーバ/インフラ
 -Docker
 
 -Ubuntu
@@ -22,7 +22,7 @@ https://tuboriku98-droid.github.io/aniani-server/
 
 -ログ分析
 
-## サーバ構築手順
+＃＃ サーバ構築手順
 
 1,DockerでLinux環境を作成
 
@@ -45,9 +45,9 @@ https://tuboriku98-droid.github.io/aniani-server/
 
 
 
-##### トラブルと解決内容
+＃＃＃ トラブルと解決内容
 
-＃トラブル:Ubuntuが日本語を打つと文字化けしてしまう
+トラブル:Ubuntuが日本語を打つと文字化けしてしまう
 
 対応:日本語ロケールをインストール→永続化、コンテナ再起動後も日本語設定が維持されるようにしました。
 
