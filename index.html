@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>「アニアニ！」</title>
+    <style>
+        body {
+            font-family: 'Hiragino Sans', 'Noto Sans JP', sans-serif;
+            margin: 0;
+            background: #f3f3f3;
+            color: #333;
+        }
+
+        /* --- HEADER --- */
+        header {
+            background: #2d2f7f;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .title {
+            font-size: 80px;
+            margin: 0;
+        }
+
+        .subtitle {
+            font-size: 40px;
+            margin: 10px 0;
+        }
+
+        nav {
+            width: 100%;
+        }
+
+        /* 左寄せジャンル選択 */
+        .box {
+            border: 2px solid #000;
+            padding: 8px 15px;
+            display: block;
+            width: fit-content;
+            margin-left: 20px; /* 左へ寄せる */
+            background: #fff;
+            color: #000;
+            font-weight: bold;
+            border-radius: 8px;
+        }
+
+        /* --- アニメ一覧全体を囲む --- */
+        .anime-list-wrapper {
+            max-width: 1300px;
+            margin: 50px auto;
+            padding: 25px;
+            background: #ffffff;
+            border-radius: 12px;
+            box-shadow: 0 3px 12px rgba(0,0,0,0.15);
+        }
+
+        .anime-list-wrapper h2 {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        /* --- グリッドで4つ並べる --- */
+        .anime-grid {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 25px;
+        }
+
+        /* --- カードデザイン --- */
+        .anime-card {
+            background: white;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+            padding: 5px;
+            text-align: center;
+        }
+
+        .anime-card img {
+            width: 100%;
+            border-radius: 8px;
+        }
+        
+
+
+
+
+        /* --- About --- */
+        .about {
+            background: #fff;
+            padding: 40px 20px;
+            text-align: center;
+            max-width: 1200px;
+            margin: 40px auto;
+            border-radius: 12px;
+            box-shadow: 0 3px 10px rgba(0,0,0,0.1);
+        }
+
+        footer {
+            text-align: center;
+            padding: 20px;
+            background: #2d2f7f;
+            color: white;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+    <header>
+        <h1 class="title">「アニアニ！」</h1>
+        <p class="subtitle">王道〜〜〜〜マイナー</p>
+</header>
+
+    <section class="anime-list-wrapper">
+        <nav>
+            <div class="box">ジャンル選択</div>
+        </nav>
+        <h2>アニメ情報一覧</h2>
+
+        <div class="anime-grid">
+
+            <div class="anime-card">
+                <img src="王道.jpeg" alt="アニメ画像">
+                <h3>おすすめ王道アニメ！</h3>
+                <p>個人的に好きな王道アニメを紹介します！</p>
+            </div>
+
+            
+
+            <div class="anime-card">
+                <img src="マイナー.avif"アニメ画像">
+                <h3>おすすめマイナーアニメ！</h3>
+                <p>個人的に好きなマイナーアニメを紹介します！</p>
+            </div>
+
+            <div class="anime-card">
+                <img src="今季２.jpeg">
+                <h3>今季アニメ紹介！</h3>
+                <p>現在放送しているアニメについて主観と周りの意見の二つを交えて口コミや評価などを記載しています！今季アニメまだ手をつけれてない人は必見です</p>
+            </div>
+
+
+            
+
+            <div class="anime-card">
+                <img src="来季.jpeg" alt="アニメ画像">
+                <h3>来季アニメ紹介</h3>
+                <p>次のシーズンに放送予定のアニメを紹介します。主観と周りの意見二つを交えて評価や期待度などを記載しています。来季アニメが気になる人はぜひ見ていってください！</p>
+            </div>
+
+            <div class="anime-card">
+                <img src="アニメグッズ.jpg" alt="アニメ画像">
+                <h3>アニメグッズ</h3>
+                <p>色々なアニメグッズを紹介していきます。推しグッズ注目！</p>
+            </div>
+
+            <div class="anime-card">
+                <img src="聖地２.jpg" alt="アニメ画像">
+                <h3>聖地巡礼</h3>
+                <p>アニメの聖地を紹介していきます。</p>
+            </div>
+
+            <div class="anime-card">
+                <img src="掲示板.jpeg" alt="アニメ画像">
+                <h3>アニアニ感想サイト</h3>
+                <p>アニメについての感想や評価などを投稿する場所です</p>
+            </div>
+
+            <div class="anime-card">
+                <img src="極秘.webp" alt="アニメ画像">
+                <h3>アニアニ特別限定アニメ情報！</h3>
+                <p>最新のアニメ情報を記載しています！</p>
+            </div>
+
+
+
+            
+            
+            
+        </div>
+    </section>
+
+    <section class="about">
+        <h2>このサイトについて</h2>
+        <p>このサイトはおすすめのアニメを紹介する個人サイトです。お気に入りの作品を見つけてください！</p>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Anime Review Site</p>
+    </footer>
+</body>
+</html>
