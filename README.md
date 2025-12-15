@@ -44,9 +44,6 @@ https://tuboriku98-droid.github.io/aniani-server/
 6,エラーログ、アクセスログの確認
 -トラブル発生時の原因特定
 
-7,
-
-
 
 ＃＃＃ トラブルと解決内容　＃＃＃
 
